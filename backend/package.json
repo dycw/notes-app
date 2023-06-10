@@ -1,0 +1,22 @@
+{
+  "author": "Derek Wan",
+  "description": "Backend",
+  "name": "backend",
+  "type": "module",
+  "version": "0.1.2",
+  "dependencies": {
+    "prisma": "^4.15.0"
+  },
+  "devDependencies": {
+    "@tsconfig/esm": "^1.0.3",
+    "@tsconfig/node-lts": "^18.12.2",
+    "@tsconfig/strictest": "^2.0.1",
+    "@types/node": "^20.2.6",
+    "tsc-watch": "^6.0.4",
+    "typescript": "^5.1.3"
+  },
+  "scripts": {
+    "dev": "tsc-watch --noClear --onSuccess \"node ./dist/main.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
