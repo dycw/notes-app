@@ -1,3 +1,3 @@
-# `template`
+# Notes app
 
-Template for generic repositories
+Demo notes app
