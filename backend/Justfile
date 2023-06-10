@@ -1,0 +1,9 @@
+set dotenv-load
+
+db-main:
+  @echo "Connecting to ${DATABASE_NAME} / ${DATABASE_PORT} / main..."
+  pscale connect ${DATABASE_NAME} main --port ${DATABASE_PORT}
+
+db-dev:
+  @echo "Connecting to ${DATABASE_NAME} / ${DATABASE_PORT} / dev..."
+  pscale connect ${DATABASE_NAME} dev --port ${DATABASE_PORT}
